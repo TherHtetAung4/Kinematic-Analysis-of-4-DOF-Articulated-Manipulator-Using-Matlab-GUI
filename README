@@ -1,4 +1,4 @@
-This paper presents the design, development, and control of a four Degree-of-Freedom (DOF) articulated manipulator utilizing a MATLAB graphical user interface (GUI) and an Arduino UNO microcontroller.
+*This paper presents the design, development, and control of a four Degree-of-Freedom (DOF) articulated manipulator utilizing a MATLAB graphical user interface (GUI) and an Arduino UNO microcontroller.
 
 DenavitHartenberg (D-H) analysis was employed to model the forward and inverse kinematics of the manipulator. 
 
@@ -6,6 +6,8 @@ MATLAB was used to verify the end-effector position and compute the joint angles
 
 A user-friendly GUI was created in MATLAB to provide intuitive interaction with the manipulator, allowing users to adjust joint angles, visualize movements, and execute predefined tasks. 
 
-The GUI communicated with the Arduino microcontroller, which controlled the servo motors attached to the manipulator joints.
+The GUI communicated with the Arduino microcontroller, which controlled the servo motors attached to the manipulator joints.*
+
+How to open Matlab (.m) file - First we first need to add "Peter Corke's Robotic Toolbox" to the path in Matlab. Then open and run the "GUI_4DOF.m" file.
 
 How to reach me - therhtetaung4@gmail.com
